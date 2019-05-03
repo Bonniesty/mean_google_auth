@@ -1,0 +1,50 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<div style="text-align:center">
+  <a href="http://localhost:3000/auth/google">
+    <button> Login with Google</button><br>
+
+
+  </a>
+  <h1>
+    Here's Dog Picture!
+  </h1>
+
+
+
+  <div *ngFor="let item of data | keyvalue">
+    <img src={{item.value}} height="200" width="200" alt="dog" />
+  </div>
+
+  <div style="text-align:center">
+    <button (click)="onSelect()"> Clike to get a new dog</button><br>
+
+
+  <div>
+
+    <p> User: {{name}}</p>
+    <p>Edit user name </p>
+  <input type="text" placeholder="enter username" name="name" >
+  <button type="submit" value="Search" class="btn btn-default submit"  >Click here to Submit</button>
+  </div>
+</div>
+
+
+
+
+<h2>Click to see my favourite dog list </h2>
+
+
+<ul style="text-align:center">
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://random.dog/8907566a-fbae-448f-9e7b-99c78dd36d6a.jpg">Dog1</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://random.dog/46754b31-a450-4afe-9063-d7c5b981ca28.jpg">Dog2</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://random.dog/2d394360-33e1-4c27-9e64-d65a2ab82d5b.jpg">Dog3</a></h2>
+  </li>
+</ul>
+
+</div>
