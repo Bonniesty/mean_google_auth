@@ -1,4 +1,4 @@
-# mean_google_auth
+# HW5 mean_google_auth
 
 For backend, go into ```hw5backend``` folder and run the following code in your terminal.
 ```javascript 
